@@ -6,7 +6,7 @@
 
 body {
   background: #eaeaea;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -86,4 +86,57 @@ footer {
   color: #8f8f8f;
   font-size: 0.75rem;
   text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .num li:nth-child(5) {
+    line-height: 1.6;
+  }
+
+  .info {
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    width: 85vw;
+    margin-bottom: 2.5rem;
+  }
+
+  footer {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 50%;
+  }
+
+  main {
+    width: 90vw;
+  }
+
+  footer {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .other-text {
+    line-height: 1.8;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  footer {
+    font-size: 0.5rem;
+  }
 }
